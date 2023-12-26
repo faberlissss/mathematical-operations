@@ -1,0 +1,12 @@
+let Num1 = Number(prompt('Please write the first number'));
+let Num2 = Number(prompt('Please write the second number'));
+let sum = Num1 + Num2;
+let minus = Num1 - Num2;
+let multiplic = Num1 * Num2;
+let division = Num1 / Num2;
+let s = (`${Num1} + ${Num2} = ${sum}`);
+let m = (`${Num1} - ${Num2} = ${minus}`);
+let l = (`${Num1} * ${Num2} = ${multiplic}`);
+let d = (`${Num1} / ${Num2} = ${division}`);
+let all = [s , m , l , d];
+alert(all);
